@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <link rel="stylesheet" href="./logincss.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<img class="main-logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png">
+
+
+<div class="main"></div>
+  
+<form action="login.php" method="POST" >
+ 
+ <div class="logo">
+  <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png">
+</div>
+  
+  <div class="sign-box">
+    <p>sign in</p>
+    <p id="signup-option">sign up</p>
+
+  </div>
+  
+    <span id="msg"></span>
+  
+  <input type="name" name="email" placeholder="Email" class="inp-Box name"/>
+  
+  <br>
+  
+ <input type="password" name="password" placeholder="Password" class="inp-Box psd"/>
+  
+  <br>
+  
+  <div class="check">
+    <input type="checkbox" id="check">
+    <label for="check" id="checkMsg">stay signed in</label>
+  </div>
+  
+  <input type="submit" value="sign in" class="inp-Box submit">
+  
+
+
+
+</form>
+
+
+<p class="note">Please log in to listen to your favorite song...</p>
+<!-- partial -->
+  <script  src="./loginjs.js"></script>
+
+</body>
+</html>

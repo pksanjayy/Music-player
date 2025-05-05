@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <input id="1st" type="text">
+    <input id="2nd" type="text">
+    <input id="3rd" type="text">
+    <input type="button" value="Max" onclick="Max()">
+    <input type="button" value="Max" onclick="Sub()">
+    <input type="button">
+</body>
+
+<script>
+  function Max(){
+    var num1 = document.getElementById("1st").value;
+    var num2 = document.getElementById("2nd").value;
+    var num3 = document.getElementById("3rd").value;
+    var maximum = Math.max(num1, num2, num3);
+    alert("The maximum value is: " + maximum);
+  }
+  function Sub(){
+    
+  }
+</script>
+
+</html>
